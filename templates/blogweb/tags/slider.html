@@ -1,0 +1,9 @@
+{% for obj in data%}
+								<div data-src="{{obj.image}}" class="">
+                            <div class="camera_caption fadeIn">
+                                <div class="camera_caption_bg slide{{forloop.counter}}">
+                                  <div class="title1">{{obj.title}}<br><span>{{obj.subtitle}}</span></div>
+                                </div>
+                            </div>
+                      </div>
+{% endfor%}
